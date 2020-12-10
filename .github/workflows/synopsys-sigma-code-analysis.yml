@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   sigma_analysis:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: Analyze repository using the SIGMA Analysis Engine
     steps:
     - name: SIGMA Analysis step
